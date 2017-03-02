@@ -12,8 +12,8 @@ import codecs
 
 
 """
-auth = tweepy.OAuthHandler('NbKpIaXwEihI0QRCxSF776gED','VqU3dVQfT6B06IFfjk7bfW0NdmqrBm43nCOtbWLBWt9molPUfI')
-auth.set_access_token('566173242-FZ71YKx31e8ThMt0QCYR9O58RSg7ym3Xhdj8iHsy','jrjLWJYzIktyHzIE5jXRdOzynwMtSu4eUJIFP8rJmeShx')
+auth = tweepy.OAuthHandler('##################','#####################################################')
+auth.set_access_token('######################','################################################')
 api = tweepy.API(auth)
 public_tweets = api.home_timeline()
 month = {
@@ -74,8 +74,8 @@ class MyListener(StreamListener):
 
 
 if __name__ == "__main__":
-    thread1 = myThread('thread1','NbKpIaXwEihI0QRCxSF776gED','VqU3dVQfT6B06IFfjk7bfW0NdmqrBm43nCOtbWLBWt9molPUfI','566173242-FZ71YKx31e8ThMt0QCYR9O58RSg7ym3Xhdj8iHsy','jrjLWJYzIktyHzIE5jXRdOzynwMtSu4eUJIFP8rJmeShx')
-    #thread2 = myThread('thread2','CzFWcisQLvGLZWqlurX7fWOsU','zSNilKFFjYr7o71ZJbvdYxf9ghbpkAMPIDVcf1kxT7XHRZTPQm','566173242-kIilDFOaYOlDdbmWk2VSRLtfKy75ZTXcSdZF2DEZ','iMMukZlERjILt3EUiZj5QxgtuwhD5AzA9jWiyVIVdvibQ')
+    thread1 = myThread('thread1','#################','########################################','#################################','####################################')
+    #thread2 = myThread('thread2','#################','######################################','###################################','######################################')
     thread1.start()
     #thread2.start()
 
